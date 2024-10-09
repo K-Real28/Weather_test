@@ -30,7 +30,6 @@ namespace Weather_test
             string cityName = inputNameCity.Text;
             string weather = await GetWeatherAsync(cityName);
             label1.Text = weather;
-
         }
         private async Task<string> GetWeatherAsync(string city)
         {
